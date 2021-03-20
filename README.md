@@ -1,3 +1,16 @@
+# Project Versioning
+Default artifacts using `mvn package`
+![img.png](img.png)
+
+**Updated all the pop.xml from `1.0-SNAPSHOT` to `1.0.1`** 
+* Cleaned the project using `mvn clean`
+* rebuilt using `mvn package`
+Changing to manual versioning:
+![img_1.png](img_1.png)
+
+
+
+
 # Alfresco AIO Project - SDK 4.0
 
 This is an All-In-One (AIO) project for Alfresco SDK 4.0.
@@ -9,7 +22,7 @@ Run with `./run.sh build_start` or `./run.bat build_start` and verify that it
  * Runs Alfresco Search Service (ASS)
  * Runs PostgreSQL database
  * Deploys the JAR assembled modules
- 
+
 All the services of the project are now run as docker containers. The run script offers the next tasks:
 
  * `build_start`. Build the whole project, recreate the ACS and Share docker images, start the dockerised environment composed by ACS, Share, ASS and 
